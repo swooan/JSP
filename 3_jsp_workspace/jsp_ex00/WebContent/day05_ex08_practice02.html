@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Scotch Candy2</title>
+
+	<style>
+		.topmenu {
+			border-top: 1px solid maroon;
+			border-bottom: 2px solid maroon;
+			padding: 0px;
+			overflow : hidden;
+			width: 910px;
+		}
+		.topmenu > li {
+			width: 300px;
+			height: 40px;
+			text-align: center;
+			line-height:40px;
+			list-style-type: none;
+			float: left;
+			box-sizing: border-box;
+		}
+		.topmenu > li.vanilla:hover {
+			color: yellow;
+			text-shadow: 2px 2px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+		}
+		.topmenu > li.banana:hover {
+			color: lime;
+			text-shadow: 2px 2px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+		}
+		.topmenu > li:hover {
+			color: red;
+			text-shadow: 2px 2px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+		}
+		footer{
+			background-color: teal;
+			width: 900px;
+		}
+
+		.b {
+			background-color: pink;
+			width : 500px;
+			height : 700px;
+			float : left;
+		}
+		.b > footer{
+			background-color: pink;
+			width: 500px;
+		}
+		aside {
+			background-color: silver;
+			width: 200px;
+			height: 700px;
+			float: left;
+		}
+		article {
+			background-color: orange;
+			width: 200px;
+			height: 700px;
+			float: left;
+		}
+	</style>
+
+</head>
+<body>
+	<h3>스카치2</h3>
+	<ul class = "topmenu">
+		<li class = "vanilla">바닐라맛</li>
+		<li class = "banana">바나나맛</li>
+		<li class = "coffee">커피맛</li>
+	</ul>
+	<aside> 사이트 바로가기 </aside>	
+	
+	<section class = "b">
+		<h3>스카치 스카치</h3>
+			테이프가 아닙니다. 사탕입니다~
+		<footer><h5>위 광고는 다음과 같은 스폰서의 제공으로 보내집니다.</h5></footer>
+	</section>
+	<article> 스카치는 맛있다 </article>
+	
+	<footer>Copyright (c) reserved by swooan</footer>
+	
+	
+</body>
+</html>
